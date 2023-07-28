@@ -53,7 +53,8 @@ form button[type="submit"] {
     transition: background-color 0.2s ease-in-out;
 }
 
-form button[type="submit"]:hover ,.recipe button:hover{
+form button[type="submit"]:hover,
+.recipe button:hover {
     background-color: rgb(153, 34, 34);
 }
 
@@ -89,14 +90,14 @@ form button[type="submit"]:hover ,.recipe button:hover{
     font-weight: 600;
 }
 
-.recipe button{
+.recipe button {
     font-size: 20px;
     font-weight: 600;
     padding: 10px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    margin:18px auto;
+    margin: 18px auto;
     background-color: rgb(238, 13, 13);
     text-align: center;
 }
@@ -110,22 +111,30 @@ form button[type="submit"]:hover ,.recipe button:hover{
     cursor: pointer;
     max-width: 350px;
 }
-  /* Recipe Details */
-.recipe-details{
-    display:none;
-    position:fixed;
-    top:50%;
+
+/* Recipe Details */
+.recipe-details {
+    display: none;
+    position: fixed;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(209, 197, 221);
+    background-color: rgb(219, 211, 226);
+    cursor: pointer;
 }
-.nav-logo{
-position:relative;
-top: 0px;
-left:10px;
-padding:2px;
 
+.nav-logo {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    padding: 2px;
 }
+
+/* .recipe-details {
+    font-size: 24px;
+    cursor: pointer;
+} */
+
 /* Responsive Code */
 @media screen and (max-width:600px) {
     header nav {
@@ -136,6 +145,7 @@ padding:2px;
         width: 80%;
         margin-top: 20px;
     }
+
     /* header nav div{
         flex-direction: column;
         width: 20%;

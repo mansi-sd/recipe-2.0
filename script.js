@@ -35,7 +35,8 @@ const fetchRecipes = async (query) => {
 }
 const openRecipePopup = (meal) => {
     recipeDetailsContent.textContent = `
-        <h2> ${meal.strMeal}</h2>`
+        <h2> ${meal.strMeal}</h2>
+        `
     recipeDetailsContent.parentElement.style.display = "block";
 }
 searchBtn.addEventListener('click', (e) => {
